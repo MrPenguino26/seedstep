@@ -16,7 +16,7 @@ const Support = () => {
       <div className="w-1/2 text-white flex flex-col justify-center items-center px-8 relative">
         <h1 className="text-4xl font-bold mb-4">For Students</h1>
         <p className="text-lg mb-6">
-          Connect with innovative startups and gain real-world experience while you're still in college. Explore internships, part-time roles, and project-based work that aligns with your career goals.
+          Connect with innovative startups and gain real-world experience while you&apos;re still in college. Explore internships, part-time roles, and project-based work that aligns with your career goals.
         </p>
         <button
           className="bg-white text-black font-bold py-2 px-4 rounded"
