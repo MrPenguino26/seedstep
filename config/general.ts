@@ -58,6 +58,11 @@ const config = {
             },
         ],
 
+        clients: {
+            title: "We've helped adsfafdsf",
+            description: "and just to name a few..."
+        },
+
         price: {
             description: "Unlock endless emoji possibilities with our monthly subscription. Cancel anytime, stress-free!",
             price: "9$",
