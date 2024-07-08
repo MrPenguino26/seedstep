@@ -10,7 +10,6 @@ const config = {
 
     contents: {
         title: "simplifying your talent search",
-        markOfTitle: "The Product", // its for marking the title. The text must contain on title. If not, it will be ignored.
         description: `need an internship? join our waitlist.`,
 
         about: [
@@ -34,77 +33,104 @@ const config = {
             }
         ],
 
-        howWorks: [
-            {
-                title: "Install the extension",
-                description: "The Product is available as a browser extension. Simply install it and you're ready to go!"
-            },
-            {
-                title: "Select your text",
-                description: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
-            },
-            {
+        support: {
+            title1: "For Students",
+            title2: "For Startups",
+            description1: "Connect with innovative startups and gain real-world experience while you're still in college. Explore internships, part-time roles, and project-based work that aligns with your career goals.",
+            description2: "Connect with motivated college students eager to gain real-world experience. Get tailored insights specific to your industry and business needs.",
+            button1: "Browse Startups",
+            button2: "Sign Up"
+        },
 
-                title: "Personalize suggestions",
-                description: "Customize your emoji suggestions based on your preferences and writing style."
-            },
-            {
-                title: "Seamless integration",
-                description: "Enjoy effortless integration with your browser, making emoji suggestions readily available."
-            },
-            {
-                title: "Copy and paste",
-                description: "Once you've selected your emoji, simply copy it and paste it wherever you like. It's that easy!"
-            },
-        ],
-
-        clients: {
-            title: "We've helped adsfafdsf",
+        clientsText: {
+            title: "We've helped 250+ clients find the right student interns among thousands of applicants",
             description: "and just to name a few..."
         },
 
-        price: {
-            description: "Unlock endless emoji possibilities with our monthly subscription. Cancel anytime, stress-free!",
-            price: "9$",
+        clients: [
+            { name: 'Client A', duration: '1 year', logo: '/client-a.png' },
+            { name: 'Client B', duration: '6 months', logo: '/client-b.png' },
+            { name: 'Client C', duration: '2 years', logo: '/client-c.png' },
+            { name: 'Client D', duration: '3 months', logo: '/client-d.png' },
+            { name: 'Client E', duration: '1.5 years', logo: '/client-e.png' },
+            { name: 'Client F', duration: '4 months', logo: '/client-f.png' },
+            { name: 'Client G', duration: '2.5 years', logo: '/client-g.png' },
+            { name: 'Client H', duration: '8 months', logo: '/client-h.png' },
+            { name: 'Client I', duration: '1 year', logo: '/client-i.png' },
+            { name: 'Client J', duration: '3 years', logo: '/client-j.png' },
+        ],
 
-            advantages: ['Cancel anytime.', 'Analyze text emotions for suitable emoji suggestions.', 'Unlimited emoji access: Explore vast library.', 'Bullet points yield perfect results.', 'Ease of use.']
+        companies: [
+            {
+                name: "Company A",
+                findingDeveloper: { value: "abcd", check: true },
+                cost: { value: "$50-$100/hour", check: false },
+                flexibility: { value: "High", check: true },
+                processStandards: { value: "Agile methodology", check: true },
+                thirdPartyAccountability: { value: "Yes", check: true },
+                transparencyControl: { value: "High", check: true },
+                switchingTeams: { value: "Easy", check: true },
+            },
+            {
+                name: "Company B",
+                findingDeveloper: { value: "In-house recruitment team", check: true },
+                cost: { value: "$80-$150/hour", check: false },
+                flexibility: { value: "Medium", check: true },
+                processStandards: { value: "Waterfall methodology", check: false },
+                thirdPartyAccountability: { value: "No", check: false },
+                transparencyControl: { value: "Medium", check: true },
+                switchingTeams: { value: "Moderate difficulty", check: true },
+            },
+            {
+                name: "Company C",
+                findingDeveloper: { value: "Freelancer platforms", check: false },
+                cost: { value: "$30-$60/hour", check: true },
+                flexibility: { value: "Very High", check: true },
+                processStandards: { value: "Kanban", check: true },
+                thirdPartyAccountability: { value: "Varies by freelancer", check: false },
+                transparencyControl: { value: "Low", check: false },
+                switchingTeams: { value: "Difficult", check: false },
+            }
+        ],
+
+        factors: [
+            { key: 'findingDeveloper', label: "Finding your developer" },
+            { key: 'cost', label: "Cost" },
+            { key: 'flexibility', label: "Flexibility" },
+            { key: 'processStandards', label: "Process & standards" },
+            { key: 'thirdPartyAccountability', label: "3rd party accountability" },
+            { key: 'transparencyControl', label: "Transparency / control" },
+            { key: 'switchingTeams', label: "Switching developers / teams" }
+        ],
+
+        comparison: {
+            title1: "But there's more...",
+            title2: "We bring the best parts of the student intern market 👇"
         },
 
-        faq: [
-            {
-                question: "What is The Product?",
-                answer: "The Product is a browser extension that suggests emoji based on your text selection. It's designed to make your online experience more fun and engaging."
-            },
-            {
-                question: "How do I install The Product?",
-                answer: "The Product is available as a browser extension. Simply install it and you're ready to go!"
-            },
+        services: {
+            title: "We serve our clients in 3 ways",
+            subtitle1: "Student-run Connections",
+            subtitle2: "Tailored Matches",
+            subtitle3: "Direct Market Research",
+            bp11: "Bullet point 1",
+            bp12: "Bullet point 2",
+            bp13: "Bullet point 3",
+            bp21: "Bullet point 1",
+            bp22: "Bullet point 2",
+            bp23: "Bullet point 3",
+            bp31: "Bullet point 1",
+            bp32: "Bullet point 2",
+            bp33: "Bullet point 3"
+        },
 
-            {
-                question: "How do I use The Product?",
-                answer: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
-            },
-            {
-                question: "Is The Product free?",
-                answer: "The Product is available as a monthly subscription. You can cancel anytime, stress-free!"
-            },
-            {
-                question: "Can I customize my emoji suggestions?",
-                answer: "Yes! You can personalize your emoji suggestions based on your preferences and writing style."
-            },
-            {
-                question: "Is The Product available globally?",
-                answer: "Yes! The Product is available to users all around the world."
-            },
-            {
-                question: "How do I cancel my subscription?",
-                answer: "You can cancel your subscription anytime. Simply go to your account settings and click 'cancel subscription'."
-            },
-            {
-                question: "How do I contact support?",
-                answer: "You can contact our support team by emailing support@theproduct.com."
-            }
-        ]
+        hirestudents: {
+            title1: "Ready to learn more?",
+            title2: "Hire tailored student interns today.",
+            description: "Find the best student interns tailored to your needs and grow your startup with fresh talent.",
+            button: "Hire Your Team",
+            call: "or call (123) 456-789"
+        }
     }
 }
 

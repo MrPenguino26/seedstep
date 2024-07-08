@@ -35,7 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-Clients.js
 Carousel.js
 SlidingBar.js
 SlidingBar.module.css

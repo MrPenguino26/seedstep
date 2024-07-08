@@ -7,7 +7,6 @@ const About = () => {
 
   return (
     <div className="bg-black text-white px-10 py-20 lg:py-32">
-      {/* Main Title and Description */}
       <div className="text-center mb-12 lg:mb-20">
         <h1 className="text-4xl lg:text-5xl font-bold mb-4">
           {title}
@@ -16,7 +15,6 @@ const About = () => {
           {description}
         </p>
       </div>
-      {/* About Items */}
       <div className="flex flex-col lg:flex-row justify-around space-y-10 lg:space-y-0 lg:space-x-10">
         {about.map((item) => (
           <div

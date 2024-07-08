@@ -15,3 +15,13 @@ div, p {
     transform: 1;
   }
 }
+
+.custom-list li {
+  margin-left: -10px; /* Adjust this value as needed */
+  padding-left: 10px; /* Adjust this value as needed */
+  position: relative;
+}
+
+.custom-list li::marker {
+  color: green; /* Change the bullet color */
+}
