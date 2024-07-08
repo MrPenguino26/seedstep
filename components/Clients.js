@@ -3,8 +3,8 @@ import Image from 'next/image';
 import config from '@/config/general';
 
 
-const ClientSegment =()=> {
-  const {clients, clientsText} = config.contents;
+const ClientSegment = () => {
+  const { clients, clientsText } = config.contents;
   return (
     <div className="bg-white py-12">
       <div className="container mx-auto px-4">
@@ -15,6 +15,7 @@ const ClientSegment =()=> {
         <div className="grid gap-8 grid-cols-2 lg:grid-cols-5 w-5/6 mx-auto">
           {clients.map((client) => (
             <div
+              key={client.id}
               className="bg-forest-green-50 p-4 rounded-lg shadow-md transform transition duration-300 hover:scale-105"
             >
               <div className="flex items-center justify-between">
