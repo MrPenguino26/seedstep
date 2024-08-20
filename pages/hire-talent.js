@@ -1,18 +1,8 @@
 // pages/index.js
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import About2 from '../components/About2';
-import Footer from '../components/Footer';
-import Support from '../components/Support';
-import Clients from '../components/Clients';
-import Comparison from '../components/Comparison';
-import HireStudents from '../components/HireStudents';
-import Services from '../components/Services'
-import Navbar from '../components/Navbar'
 import Head from 'next/head'
-import Introduction from '../components/Introduction';
-import OurSecret from '../components/oursecret';
-import TestimonialsPage from '../components/Testimonials';
+import Hire from '../components/hire-college-talent'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar'
 
 
 export default function Home() {
@@ -25,13 +15,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col items-center bg-white text-black">
         <Navbar />
-        <About2 />
-        <Clients />
-        <OurSecret />
-        <Services />
-        <Comparison />
-        <TestimonialsPage />
-        <HireStudents />
+        <Hire />
         <Footer />
       </div>
     </>

@@ -19,7 +19,12 @@ const config: Config = {
         },
         green: {
           100: '#e6f4e6', // very light green for a subtle touch
+          'green-900': '#064e3b', // Dark green color
         },
+      },
+      fontFamily: {
+        heading: ['Merriweather', 'serif'],
+        body: ['Roboto', 'sans-serif'],
       },
     },
   },

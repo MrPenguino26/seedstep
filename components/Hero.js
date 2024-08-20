@@ -8,7 +8,7 @@ const Hero = () => {
   const {title, description} = config.contents;
 
   return (
-    <section className="flex flex-col items-center my-5">
+    <section className="flex flex-col items-center my-5 pt-32">
       {/* Reduced the top margin and gap */}
       <div className="mt-2 flex flex-col items-center gap-2 sm:gap-6">
         <h1 className="font-normal text-2xl sm:text-4xl text-black text-center mb-2">

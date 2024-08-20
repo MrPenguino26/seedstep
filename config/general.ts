@@ -43,7 +43,7 @@ const config = {
         },
 
         clientsText: {
-            title: "We've helped 250+ clients find the right student interns among thousands of applicants",
+            title: "We've helped our clients find the right student interns among thousands of applicants",
             description: "and just to name a few..."
         },
 
@@ -105,23 +105,23 @@ const config = {
 
         comparison: {
             title1: "But there's more...",
-            title2: "We bring the best parts of the student intern market 👇"
+            title2: "We bring the best parts of the student talent market 👇"
         },
 
         services: {
-            title: "We serve our clients in 3 ways",
+            title: "We serve our clients in 2 ways",
             subtitle1: "Student-run Connections",
             subtitle2: "Tailored Matches",
             subtitle3: "Direct Market Research",
-            bp11: "Bullet point 1",
-            bp12: "Bullet point 2",
+            bp11: "Bullet",
+            bp12: "Bullet point",
             bp13: "Bullet point 3",
-            bp21: "Bullet point 1",
-            bp22: "Bullet point 2",
+            bp21: "Top college talent, handpicked for you.",
+            bp22: "Proven success with satisfied clients.",
             bp23: "Bullet point 3",
-            bp31: "Bullet point 1",
-            bp32: "Bullet point 2",
-            bp33: "Bullet point 3"
+            bp31: "Real insights from the student perspective.",
+            bp32: "Fast, actionable data delivery.",
+            bp33: "Strategies that drive results."
         },
 
         hirestudents: {

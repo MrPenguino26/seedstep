@@ -9,9 +9,9 @@ const ClientSegment = () => {
     <div className="bg-white py-12">
       <div className="container mx-auto px-4">
         <div className=" mx-auto w-3/5 text-center mt-12">
-          <h1 className="text-4xl font-bold mb-4 text-forest-green-600">{clientsText.title}</h1>
+          <h1 className="text-4xl font-bold mb-4 text-forest-green-600 font-heading">{clientsText.title}</h1>
         </div>
-        <h2 className="text-xl text-forest-green-500 mb-12 text-center">{clientsText.description}</h2>
+        <h2 className="text-xl text-forest-green-500 mb-12 text-center font-body">{clientsText.description}</h2>
         <div className="grid gap-8 grid-cols-2 lg:grid-cols-5 w-5/6 mx-auto">
           {clients.map((client) => (
             <div
