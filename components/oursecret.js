@@ -11,7 +11,7 @@ export default function OurSecret() {
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-2xl font-bold text-center mb-6">Our Secret</h1>
         <p className="text-center text-lg mb-8">
-          There's no one better to connect you to the college market than college students.
+          There&apos;s no one better to connect you to the college market than college students.
         </p>
         <div className="flex justify-center space-x-4 mb-4">
           {/* Placeholder for co-founder 1 */}
@@ -24,7 +24,7 @@ export default function OurSecret() {
               className="rounded-full"
             />
             <p className="text-base mt-2 font-semibold">Armaan Parikh</p>
-            <p className="text-sm mt-2">Vanderbilt '27</p>
+            <p className="text-sm mt-2">Vanderbilt &apos;27</p>
           </div>
           {/* Placeholder for co-founder 2 */}
           <div className="text-center flex flex-col items-center">
@@ -36,7 +36,7 @@ export default function OurSecret() {
               className="rounded-full"
             />
             <p className="text-based mt-2 font-semibold">Austin Mboijana</p>
-            <p className="text-sm mt-2">Vanderbilt '26</p>
+            <p className="text-sm mt-2">Vanderbilt &lsquo;26</p>
           </div>
         </div>
         <p className="text-center text-base">

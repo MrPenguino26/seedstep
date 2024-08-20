@@ -19,7 +19,7 @@ export default function Home() {
                     <div className="text-center">
                         <h2 className="text-xl font-semibold text-gray-700">How We Tailor Your Matches</h2>
                         <p className="text-gray-600 mt-2">
-                            We evaluate your company's unique requirements and identify college students with the right skills and background to fit those needs.
+                            We evaluate your company&lsquo;s unique requirements and identify college students with the right skills and background to fit those needs.
                         </p>
                     </div>
 
